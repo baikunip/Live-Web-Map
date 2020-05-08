@@ -9,8 +9,8 @@ import pymongo
 token = '''this is your Map Box's Token | Ini token Map Box mu'''
 #Connect to DB | Koneksi ke DB (In this case, I use MongoDB | Pada project ini, saya menggunakan MongoDB)
 client= pymongo.MongoClient('insert your connection MongoDB connection url | Masukkan url penghubung ke MongoDB')
-db=client['tempmap']
-collection=db['tempmap']
+db=client['''DB's name''']
+collection=db['''Collection's name''']
 
 #Start to build Dash | Mulai membuat Dash
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
