@@ -6,7 +6,7 @@ import plotly.graph_objs as go
 import random
 import pymongo
 #Token Mapbox
-token = 'this is your Map Box's Token | Ini token Map Box mu'
+token = '''this is your Map Box's Token | Ini token Map Box mu'''
 #Connect to DB | Koneksi ke DB (In this case, I use MongoDB | Pada project ini, saya menggunakan MongoDB)
 client= pymongo.MongoClient('insert your connection MongoDB connection url | Masukkan url penghubung ke MongoDB')
 db=client['tempmap']
