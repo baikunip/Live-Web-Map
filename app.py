@@ -58,8 +58,8 @@ for sx in range(0, 4):
 radar=go.Figure()
 radar.add_trace(go.Scatterpolar(
           r=rad,
-          theta=['processing cost', 'mechanical properties', 'chemical stability',
-                 'thermal stability', 'device integration'],
+          theta=['Progress A', 'Progress B', 'Progress C',
+                     'Progress D', 'Progress E'],
           fill='toself',
           name='Product A'
       ))
